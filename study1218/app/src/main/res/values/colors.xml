@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="deepmint">#70AF85</color>
+    <color name="mint">#C6EBC9</color>
+    <color name="beige">#F0E2D0</color>
+    <color name="brown">#AA8976</color>
+    <color name="deepbrown">#433d3c</color>
+
+
+
 </resources>
