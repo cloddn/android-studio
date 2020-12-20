@@ -13,7 +13,8 @@ tools:context=".MainActivity">
         android:layout_height="wrap_content"
         android:text="눌러보세요!!"
         android:layout_gravity="center"
-        android:layout_marginLeft="150dp">
+        android:layout_marginLeft="150dp"
+        android:onClick="clickbtn1">
     </Button>
 
 </LinearLayout>
