@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment1">
+    android:orientation="vertical"
+    tools:context=".FragmentActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안녕하세요"
+        android:textSize="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/out"
+        android:text="나와라"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="#FA4848"
+        android:id="@+id/container"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vanish"
+        android:text="사라져라!!"/>
+
+
+    <!--
+     xml에 해당 Fragment가 할당되는 것
+      보여줄 fragment 해당 화면은 ->fragmentone이 정보를 갖고 있다.
+       // <fragment
+            android:id="@+id/fragment_one"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:name="com.example.intent_activity.FragmentOne"/>
+    -->
+
+
+</LinearLayout>
