@@ -37,7 +37,7 @@
             android:id="@+id/remoodbag"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="&lt;Remood Bag &lt;"
+            android:text=" Remood Bag "
             android:textSize="50px"
             android:gravity="center"
             android:layout_gravity="center_horizontal"

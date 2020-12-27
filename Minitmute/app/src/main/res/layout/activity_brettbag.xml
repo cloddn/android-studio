@@ -37,7 +37,7 @@
             android:id="@+id/brettbag"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="&lt;Brett Bag &lt;"
+            android:text="Brett Bag;"
             android:textSize="50px"
             android:gravity="center"
             android:layout_gravity="center_horizontal"

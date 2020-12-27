@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aribag"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:weightSum="9">
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="MINITMUTE"
+        android:textSize="50px"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/aribag"
+        android:layout_weight="1">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/aribag"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Ari Bag"
+        android:textSize="50px"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/aribag1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:text="미닛뮤트 미니멀 라인의 아리백입니다. 이태리 MASTROTTO 테너리의 엠보슈렁큰 타입으로 불규칙하고 자연스러운 엠보가 특징입니다. 기스에 강하고 코팅 처리가 되어 수분에도 매우 강해 데일리로 편하게 사용 가능합니다. 여권과 팩트 휴대폰 등 기본 소지품이 수납 가능한 최적의 미니 사이즈 입니다."
+        android:textSize="40px"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/aribag_1"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="50px"
+        >
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/aribag_2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="50px"
+        >
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/aribag_3"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="50px"
+        >
+    </ImageView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aribag_4"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="50px"
+        >
+    </ImageView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aribag_5"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="50px"
+        >
+    </ImageView>
+
+  </LinearLayout>
+
+</ScrollView>
