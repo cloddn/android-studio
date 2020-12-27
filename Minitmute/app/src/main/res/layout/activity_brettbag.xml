@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Brettbag"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="9">
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="MINITMUTE"
+            android:textSize="50px"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/brettbag"
+            android:layout_weight="1">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/brettbag"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="&lt;Brett Bag &lt;"
+            android:textSize="50px"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/brettbag1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10px"
+            android:text="미닛뮤트 무드빈티지 라인의 브렛백 입니다. 빨라진 유행의 변화에 따르지 않고 미닛뮤트만의 리듬을 유지하며 빈티지한 멋과 감성을 담아낸 가방입니다. 이태리 페레로 테너리의 대표적인 가죽인 투포슈포 루시도 가죽을 사용하여 광도와 불규칙한 주름으로 한층 고급스러운 질감으로 표현하였습니다. 안감은 샤무드라는 국내 특허 제품으로, 스웨이드의 질감을 표현하여 장점을 살리고 먼지나 이염 부분의 취약점인 단점은 보완한 제품 입니다. YKK 지퍼를 사용하였고, 지퍼와 벨트 부분에 미닛뮤트 시그니처 음각으로 고급스러움을 한층 더하였습니다."
+            android:textSize="40px"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/brettbag_1"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="50px"
+           >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/brettbag_2"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="50px"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/brettbag_3"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="50px"
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/brettbag_4"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="50px"
+            >
+        </ImageView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brettbag_5"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="50px"
+        >
+    </ImageView>
+
+    </LinearLayout>
+
+</ScrollView>

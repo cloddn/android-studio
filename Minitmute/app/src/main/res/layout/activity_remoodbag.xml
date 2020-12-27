@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Remoodbag"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="9">
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="MINITMUTE"
+            android:textSize="50px"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/remoodbag"
+            android:layout_weight="1">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/remoodbag"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="&lt;Remood Bag &lt;"
+            android:textSize="50px"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/remoodbag1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10px"
+            android:text="미닛뮤트의 시그니처 라인의 리무드백 엠 사이즈 입니다. 이태리 FUTURA 테너리의 MELIS 라는 아티클로 전체적으로 고른 광이 특징입니다. 염색과 광택 마감을 완료한 후 밀링을 돌리거나 바이브레이터를 이용하여 불규칙한 크랙 느낌을 연출한 가죽입니다. 가죽의 경량화 덕에 양가죽 같은 가벼운 무게감으로 편하게 메실 수 있습니다. 기본 가죽 스트랩 & 와이드 웨빙 스트랩이 함께 배송되며 3 way로 사용 가능합니다. 웨빙은 차량용 안전 벨트 스트랩으로 주름에 강하고 탄탄하여 기존 제품과 차별성을 두었습니다.
+"
+            android:textSize="40px"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/remoodbag_1"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="50px"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/remoodbag_2"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="50px"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/remoodbag_3"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="50px"
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/remoodbag_4"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="50px"
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/remoodbag_5"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="50px"
+            >
+        </ImageView>
+
+    </LinearLayout>
+
+</ScrollView>
