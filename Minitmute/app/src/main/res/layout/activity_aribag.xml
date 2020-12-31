@@ -14,8 +14,10 @@
       android:orientation="vertical"
       android:weightSum="9">
 
-    <TextView
+    <Button
         android:id="@+id/info_text"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="MINITMUTE"
@@ -43,7 +45,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
         />
-
     <TextView
         android:id="@+id/aribag1"
         android:layout_width="match_parent"
@@ -55,6 +56,18 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
         />
+
+    <Button
+        android:id="@+id/arihome"
+        android:layout_marginTop="20dp"
+        android:text="링크로 연결"
+        android:textColor="@color/black"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/lemon"
+        >
+    </Button>
 
     <ImageView
         android:layout_width="match_parent"
