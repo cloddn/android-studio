@@ -14,7 +14,7 @@ class TabPagerActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding=ActivityTabPagerBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.tabLayout.addTab(binding.tabLayout.newTab().setText("1"))
+        binding.tabLayout.addTab(binding.tabLayout.newTab().setText("1")) //탭 새롭게 생성하기
         binding.tabLayout.addTab(binding.tabLayout.newTab().setText("2"))
         binding.tabLayout.addTab(binding.tabLayout.newTab().setText("3"))
 
@@ -46,7 +46,7 @@ class ThreePageAdapter(val layoutInflater: LayoutInflater):PagerAdapter(){
     }
 
     override fun isViewFromObject(view: View, `object`: Any): Boolean {
-        return view=== "object" as View
+        return view=== `object` as View
     }
 
     override fun instantiateItem(container: ViewGroup, position: Int): Any {
@@ -66,8 +66,7 @@ class ThreePageAdapter(val layoutInflater: LayoutInflater):PagerAdapter(){
                 container.addView(view)
                 return view
             }
-            else
-            {
+            else->{
                 val view= layoutInflater.inflate(R.layout.fragment1,container,false)
                 container.addView(view)
                 return view
@@ -76,6 +75,6 @@ class ThreePageAdapter(val layoutInflater: LayoutInflater):PagerAdapter(){
     }
 
     override fun destroyItem(container: ViewGroup, position: Int, `object`: Any) {
-        container.removeView("object" as View)
+        container.removeView(`object` as View)
     }
 }
