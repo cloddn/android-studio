@@ -11,11 +11,13 @@
 
 
     <Button
+        android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="STARTUF"
         android:background="@android:color/transparent"
-        android:textSize="48px"
+        android:textSize="10pt"
+        android:gravity="center"
         android:layout_gravity="center">
     </Button>
 
@@ -76,6 +78,7 @@
             android:numColumns="3"
             tools:listitem="@layout/category_box">
         </GridView>
+
 
     </LinearLayout>
 
