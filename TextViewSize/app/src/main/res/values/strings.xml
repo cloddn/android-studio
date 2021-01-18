@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TextViewSize</string>
+    <string name="txv">글자 자동 크기 조절</string>
 </resources>
