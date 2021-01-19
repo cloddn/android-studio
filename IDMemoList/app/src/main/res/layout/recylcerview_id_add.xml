@@ -42,16 +42,16 @@
                 android:layout_alignParentLeft="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ID:           "
+                android:text="ID:"
                 android:textSize="8pt"
                 android:textStyle="bold" />
             <TextView
                 android:id="@+id/useriddata"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/userid"
-                android:text="  "
+                android:autoSizeTextType="uniform"
+                android:text="___"
                 android:textSize="8pt"
                 android:textStyle="bold" />
 
@@ -59,7 +59,7 @@
                 android:id="@+id/userpw"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="PW:            "
+                android:text="PW:"
                 android:layout_below="@id/userid"
                 android:textSize="8pt"
                 android:textStyle="bold" />
@@ -69,7 +69,8 @@
                 android:layout_toRightOf="@id/userpw"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" "
+                android:autoSizeTextType="uniform"
+                android:text="___"
                 android:textSize="8pt"
                 android:textStyle="bold" />
     </RelativeLayout>
@@ -81,7 +82,7 @@
             android:layout_width="50dp"
             android:layout_height="60dp"
             android:layout_marginRight="15dp"
-            android:background=""
+            android:background="@android:color/transparent"
             android:scaleType="centerInside"
             android:src="@drawable/etcbutton"
             android:layout_alignParentRight="true"/>

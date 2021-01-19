@@ -32,7 +32,6 @@
             android:scaleType="centerInside"
             android:src="@drawable/menubutton"
             android:layout_marginLeft="10dp"
-            android:background=""
             android:layout_alignParentRight="true"/>
 
         <ImageButton
@@ -45,7 +44,7 @@
             android:layout_marginRight="10dp"
             android:adjustViewBounds="true"
             android:scaleType="centerInside"
-            android:background=""/>
+           />
 
         <EditText
             android:layout_toLeftOf="@id/search_button"
