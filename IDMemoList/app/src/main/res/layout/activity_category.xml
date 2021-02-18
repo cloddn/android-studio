@@ -8,7 +8,7 @@
     android:background="@drawable/app_background">
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/depth1_logobutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -19,8 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></Button>
 
-
-    <GridView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/gridView1"
         android:layout_width="300dp"
         android:layout_height="340dp"
@@ -28,15 +27,15 @@
         android:layout_marginTop="64dp"
         android:columnWidth="50dp"
         android:horizontalSpacing="30dp"
-        android:numColumns="3"
-        android:verticalSpacing="30dp"
         app:layout_constraintBottom_toTopOf="@+id/homebtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/search_box"
         app:layout_constraintVertical_bias="0.0"
-        tools:listitem="@layout/category_box"></GridView>
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        tools:listitem="@layout/category_box"/>
+
 
     <ImageView
         android:id="@+id/search_box"
@@ -48,7 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7"></ImageView>
+        app:layout_constraintTop_toBottomOf="@+id/depth1_logobutton"></ImageView>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -65,7 +64,7 @@
 
 
     <ImageView
-        android:id="@+id/homebtn"
+        android:id="@+id/depth1_homebtn"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_gravity="center"

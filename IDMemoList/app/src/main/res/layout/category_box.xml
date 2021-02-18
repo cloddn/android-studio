@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
-    <ImageView
+
+    <ImageButton
+        android:id="@+id/depth1_imgbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/categoryimgview"
-        android:src="@drawable/grid_element"/>
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/depth1_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="+"></TextView>
+
 
 </FrameLayout>
