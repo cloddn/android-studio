@@ -1,19 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:english_words/english_words.dart';
+import 'package:flutter_app_1/src/random_list.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget{
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-            title: Text("Naming APP")
-        ),
-        body: Center(child:Text("body text",textScaleFactor: 1.5,),),
-      ),
+  Widget build(BuildContext context) => MaterialApp(
+      home: RandomList(),
     );
-  }
 }
-
 
